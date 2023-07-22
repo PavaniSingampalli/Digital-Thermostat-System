@@ -19,7 +19,7 @@ Two push buttons for user interaction, connected to analog pins A0 and A1
 Jumper wires
 Operation:
 
-Upload the provided code "digital_thermostat.ino" to the Arduino board using the Arduino IDE.
+Upload the code to the Arduino board using the Arduino IDE.
 Connect the LCD display and push buttons to the Arduino board as specified in the code.
 The LCD will display "Desired Temperature: 25" on the first line and "Current Temperature: 25" on the second line, indicating the initial desired and current temperatures, respectively.
 Use the push buttons to adjust the desired temperature. Pressing the up button (connected to A0) will increase the desired temperature, and pressing the down button (connected to A1) will decrease the desired temperature. The temperature range is between 0°C and 100°C.
